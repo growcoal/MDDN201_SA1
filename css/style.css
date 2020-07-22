@@ -22,8 +22,8 @@ section{
 header{
 	background-color: #4DA167;
 	color: white; /* more readable on an orange background */
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 nav{
@@ -46,7 +46,22 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
 /* Simple grid */
 .g-row{
